@@ -27,7 +27,7 @@ function CartPage() {
           <ListItem key={cartItem.item.id}>
             <ListItemText
               primary={cartItem.item.name}
-              secondary={`Quantity: ${cartItem.quantity}`}
+              secondary={`Quantty: ${cartItem.quantity}`}
             />
             <ListItemSecondaryAction>
               <IconButton
